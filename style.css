@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-image: url("./imagem\ drone.jpeg");
+    background-size: cover;
+    
+}
+  h1 {
+    font-size: 70px;
+  }
+ 
+  p {
+    font-size: 30px;
+  }
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.listaMenu {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.listaMenu li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tituloprincipal {
+    display: flex;
+    flex: 1;
+    margin-top: 10vh;
+    justify-content: center;
+    font-size: 50px;
+    color: #485368;
+}
+.titulosecundario {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 70vh;
+    font-size: 90px;
+    color: #244227;
+}
+
+.frasedeefeito {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.subtitulo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 70vh;
+    font-size: 90px;
+    color: #244227;   
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 200px;
+  }
+  
+  nav a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+
+  .titulo {
+    color: #fff;
+  }
+
+  .paragrafo {
+    color: #fff;
+  }
